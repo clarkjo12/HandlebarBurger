@@ -1,7 +1,6 @@
 li {
   padding: 5px;
   margin: 5px;
-  background: #faebd7;
 }
 
 .label {
@@ -16,4 +15,30 @@ li {
 
 .form-group {
   margin-bottom: 5px;
+}
+
+.momma {
+  display: flex;
+  justify-content: center;
+  background-color: bisque;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.burger-wrapper {
+  display: flex;
+  background-color: aqua;
+  justify-content: center;
+  text-align: center;
+}
+
+.ready {
+  border: 2px solid black;
+}
+
+.eaten {
+  border: 2px solid rgb(132, 0, 0);
 }
