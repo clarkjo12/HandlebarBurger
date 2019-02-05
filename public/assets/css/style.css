@@ -13,8 +13,26 @@ li {
   background: aqua;
 }
 
+.momma-header {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  text-align: center;
+}
+
 .form-group {
   margin-bottom: 5px;
+}
+
+.daheader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.burg-img {
+  width: 200px;
+  height: 150px;
 }
 
 .momma {

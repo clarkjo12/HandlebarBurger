@@ -1,25 +1,29 @@
-<h1>HandleBurger!</h1>
-<img src="../public/assets/images/burg.png">
-<div class="add-burger">
-  <h3>Think of a delicious Burger, and what you'd call it.
-  </h3>
-  <form class="create-form">
+<div class="momma-header">
+  <div class="daheader">
+    <img class="burg-img" src="./assets/images/burg.png">
+    <h1>HandleBurger!</h1>
+  </div>
+  <div class="add-burger">
+    <h3>Think of a delicious Burger, and what you'd call it.
+    </h3>
+    <form class="create-form">
 
-    <div class="form-group">
-      <label for="ca">Burger's Name:</label>
-      <input type="text" id="ca" name="name">
-    </div>
+      <div class="form-group">
+        <label for="ca">Burger's Name:</label>
+        <input type="text" id="ca" name="name">
+      </div>
+      <br/>
+      <div class="form-group">
+        <label for="hungry">Order up New Burger, or Reminiscing?</label><br><br>
+        <input type="radio" name="mehungry" value="1" checked> Order!<br>
+        <input type="radio" name="mehungry" value="0"> Ate Ago..
+      </div>
 
-    <div class="form-group">
-      <label for="hungry">Order up New Burger, or Reminiscing?</label><br>
-      <input type="radio" name="mehungry" value="1" checked> Order!<br>
-      <input type="radio" name="mehungry" value="0"> Ate Ago..
-    </div>
-
-    <button type="submit">Add Burg</button>
-  </form>
+      <button type="submit">Add Burg</button>
+    </form>
+    <br/>
+  </div>
 </div>
-
 <div class="burger-wrapper">
   <div class="ready">
     <h2>Burgers Ready to Eat:</h2>
